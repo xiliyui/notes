@@ -4,13 +4,19 @@
 `git remote prune origin`
 
 ### git取回所有分支的更新
-`git fetch`
+`git fetch <远程主机名>`
 
-![流程图]("https://github.dev/xiliyui/notes/blob/2e0c8ee30ece48cb266ecfc2dc8b3ed0186b1fd7/git/resources/git_fetch_pull.png" "流程图")
+### git取回特定分支的更新
+`git fetch <远程主机名> <分支名>`
 
 ### git fetch和git pull的区别
 `git fetch`是将远程主机的最新内容拉到本地，用户在检查了以后决定是否合并到工作本机分支中。   
 而`git pull`则是将远程主机的最新内容拉下来后直接合并，即：`git pull` = `git fetch` + `git merge`，这样可能会产生冲突，需要手动解决。
+```
+git fetch origin master //从远程主机的master分支拉取最新内容 
+git merge FETCH_HEAD    //将拉取下来的最新内容合并到当前所在的分支中
+```
+![流程图](./resources/git_fetch_pull.png "流程图")
 
 
 ## git生成一个新的文件分支
