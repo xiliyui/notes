@@ -36,12 +36,16 @@ git merge FETCH_HEAD    //将拉取下来的最新内容合并到当前所在的
 `git reset --soft HEAD^`  
 HEAD^的意思是上一个版本，也可以写成HEAD~1  
 如果你进行了两次commit，想都撤回，可以使用HEAD~2  
-`git reset --hard commit_id` 退到/进到，制定commit_id的commit  
+`git reset --hard <commitHash>` 退到/进到，指定commitHash的commit  
 `git push origin HEAD --force` 强推到远程
 
 
 ## git修改上一次commit的information
 `git commit --amend`
+
+
+## git从指定commitHash拉取代码
+`git cherry-pick <commitHash>`
 
 
 ## git生成ssh公钥
