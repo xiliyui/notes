@@ -3,6 +3,8 @@
 ## git同步远程分支信息
 `git remote prune origin`
 
+
+## git fetch
 ### git取回所有分支的更新
 `git fetch <远程主机名>`
 
@@ -73,3 +75,7 @@ ssh-add -L
 ssh-add
 ```
 输入密码。
+
+
+## git修改本地分支的分支名
+`git branch -m <newBranchName>`
