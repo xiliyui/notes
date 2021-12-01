@@ -12,7 +12,7 @@
 `git fetch <远程主机名> <分支名>`
 
 ### git fetch和git pull的区别
-`git fetch`是将远程主机的最新内容拉到本地，用户在检查了以后决定是否合并到工作本机分支中。   
+`git fetch`是将远程主机的最新内容拉到本地，用户在检查了以后决定是否合并到工作本机分支中。  
 而`git pull`则是将远程主机的最新内容拉下来后直接合并，即：`git pull` = `git fetch` + `git merge`，这样可能会产生冲突，需要手动解决。
 ```
 git fetch origin master //从远程主机的master分支拉取最新内容 
@@ -56,7 +56,7 @@ HEAD^的意思是上一个版本，也可以写成HEAD~1
 2. 查看是否有公钥目录  
 `ls`  
 3. 查看公钥  
-`cat id_rsa.pub`   
+`cat id_rsa.pub`  
 以ssh-rsa开头的就是公钥
 4. 删除旧的公钥   
 ```
@@ -65,11 +65,11 @@ cp id_rsa* key_backup
 rm id_rsa*
 ```
 5. 生成新的公钥   
-`ssh-keygen -t rsa -C "邮箱"`    
+`ssh-keygen -t rsa -C "邮箱"`  
 输入命令后会有几个设置密码的提示，如果不需要设置密码，直接一直按回车键到结束。
 6. 完成公钥的生成后查看公钥，参考第2步查看生成的公钥。
 
-解决每次git pull/push都需要输入密码的问题   
+解决每次git pull/push都需要输入密码的问题  
 ```
 ssh-add -L
 ssh-add
