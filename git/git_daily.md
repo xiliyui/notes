@@ -1,7 +1,7 @@
 # git
 
 ## git同步远程分支信息
-`git remote prune origin`
+`git remote prune origin】
 
 
 ## git fetch
