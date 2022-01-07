@@ -1,5 +1,5 @@
 # Node.js Stream(流)
-Stream是一个抽象借口，Node中有很多对象实现这个接口。例如，对http服务器发起请求的request对象就是一个Stream。
+Stream是一个抽象借接口，Node中有很多对象实现这个接口。例如，对http服务器发起请求的request对象就是一个Stream。
 
 ## Node.js,Stream有四种流类型：
 - Readable - 可读操作
