@@ -15,5 +15,5 @@
 ### OpenAI
 `https://beta.openai.com/account/api-keys`
 - 账号：paojie2333@gmail.com
-- 密码：paojie2333
+- 密码：!Paojie2333
 - key: `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`
