@@ -1,0 +1,3 @@
+- Azur Lane
+    - acount    paojie2333@outlook.com
+    - password  paojie2333
