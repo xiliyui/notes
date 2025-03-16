@@ -8,7 +8,7 @@
 
 - https://www.luchu.net/ & https://www.xiaolu.pro/
 
-- https://www.avswitch.org/
+- https://www.avswitch.org/ & https://ijavtorrent.com/tag/8kvr-2407
 
 - https://laowang.vip/forum.php
 
